@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangrHRMTestProjectSuite" verbose="1" >
+  <test name="OrangrHRMTest" >
+    <classes>
+       <class name="com.bitm.OrangeHRMTest.Test.LoginTest" />
+       <class name="com.bitm.OrangeHRMTest.Test.AssignLeaveTest" />
+       <class name="com.bitm.OrangeHRMTest.Test.LeaveListTest" />
+    </classes>
+  </test>
+  
+</suite>

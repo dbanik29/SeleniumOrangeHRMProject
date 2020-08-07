@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumTestingProjectSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrangrHRMTest(failed)">
+    <classes>
+      <class name="com.bitm.OrangeHRMTest.Test.LeaveListTest">
+        <methods>
+          <include name="LeaveListTest"/>
+        </methods>
+      </class> <!-- com.bitm.OrangeHRMTest.Test.LeaveListTest -->
+    </classes>
+  </test> <!-- OrangrHRMTest(failed) -->
+</suite> <!-- Failed suite [SeleniumTestingProjectSuite] -->

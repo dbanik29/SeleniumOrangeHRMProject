@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-07T16:01:59 BDT" name="OrangrHRMTestProjectSuite" finished-at="2020-08-07T16:02:43 BDT" duration-ms="43289">
+    <groups>
+    </groups>
+    <test started-at="2020-08-07T16:01:59 BDT" name="OrangrHRMTest" finished-at="2020-08-07T16:02:43 BDT" duration-ms="43289">
+      <class name="com.bitm.OrangeHRMTest.Test.LoginTest">
+        <test-method signature="checkLoginPageTitle()[pri:0, instance:com.bitm.OrangeHRMTest.Test.LoginTest@16e7dcfd]" started-at="2020-08-07T16:01:59 BDT" name="checkLoginPageTitle" finished-at="2020-08-07T16:02:08 BDT" duration-ms="8855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginPageTitle -->
+        <test-method signature="logintest(java.util.List)[pri:0, instance:com.bitm.OrangeHRMTest.Test.LoginTest@16e7dcfd]" started-at="2020-08-07T16:02:10 BDT" name="logintest" data-provider="loginData" finished-at="2020-08-07T16:02:27 BDT" depends-on-methods="com.bitm.OrangeHRMTest.Test.LoginTest.checkLoginPageTitle" duration-ms="17092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LoginDTO [username=admin, password=admin123]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.bitm.OrangeHRMTest.Test.LoginTest -->
+      <class name="com.bitm.OrangeHRMTest.Test.AssignLeaveTest">
+        <test-method signature="checkAssignLeavePageTitle()[pri:0, instance:com.bitm.OrangeHRMTest.Test.AssignLeaveTest@3d121db3]" started-at="2020-08-07T16:02:27 BDT" name="checkAssignLeavePageTitle" finished-at="2020-08-07T16:02:31 BDT" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAssignLeavePageTitle -->
+        <test-method signature="AssignLeaveTest(java.util.List)[pri:0, instance:com.bitm.OrangeHRMTest.Test.AssignLeaveTest@3d121db3]" started-at="2020-08-07T16:02:31 BDT" name="AssignLeaveTest" data-provider="AssignLeaveData" finished-at="2020-08-07T16:02:34 BDT" depends-on-methods="com.bitm.OrangeHRMTest.Test.AssignLeaveTest.checkAssignLeavePageTitle" duration-ms="3707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[AssignLeaveDTO [employeeName=Linda Anderson,leaveType=FMLA US, yearFrom=Aug,monthFrom= 2020, dayFrom = 7,yearTo= Aug,monthTo= 2020,dayTo= 14, comment=No Comment]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignLeaveTest -->
+      </class> <!-- com.bitm.OrangeHRMTest.Test.AssignLeaveTest -->
+      <class name="com.bitm.OrangeHRMTest.Test.LeaveListTest">
+        <test-method signature="LeaveListTest(java.util.List)[pri:0, instance:com.bitm.OrangeHRMTest.Test.LeaveListTest@3b07a0d6]" started-at="2020-08-07T16:02:34 BDT" name="LeaveListTest" data-provider="LeaveListData" finished-at="2020-08-07T16:02:43 BDT" duration-ms="8166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LeaveListDTO [fromYear=2017, fromMonth=Jan, fromDay=1, toYear=2018, toMonth=Dec, toDay=30, employee=Thomas Fleming, subUnit=Sales]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeaveListTest -->
+      </class> <!-- com.bitm.OrangeHRMTest.Test.LeaveListTest -->
+    </test> <!-- OrangrHRMTest -->
+  </suite> <!-- OrangrHRMTestProjectSuite -->
+</testng-results>
